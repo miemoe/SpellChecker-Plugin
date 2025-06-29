@@ -7,9 +7,9 @@
 name: Build SpellChecker-Plugin
 
 # Controls when the action will run. Triggers the workflow on any push event.
-# on: [push]
-on:
-  workflow_dispatch
+on: [push]
+# on:
+#   workflow_dispatch
 
 env:
   QT_VERSION: "6.6.2"
